@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOCUMENT", "DOCUMENT", "{99
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THDotNetPractice.DapperCRUDExample", "THDotNetPractice.DapperCRUDExample\THDotNetPractice.DapperCRUDExample.csproj", "{AEA63D1E-DEAE-451B-AFCF-665B931A17BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THDotNetPractice.DapperCRUDExample", "THDotNetPractice.DapperCRUDExample\THDotNetPractice.DapperCRUDExample.csproj", "{AEA63D1E-DEAE-451B-AFCF-665B931A17BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THDotNetPractice.ConsoleApp", "THDotNetPractice.ConsoleApp\THDotNetPractice.ConsoleApp.csproj", "{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{AEA63D1E-DEAE-451B-AFCF-665B931A17BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEA63D1E-DEAE-451B-AFCF-665B931A17BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEA63D1E-DEAE-451B-AFCF-665B931A17BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
