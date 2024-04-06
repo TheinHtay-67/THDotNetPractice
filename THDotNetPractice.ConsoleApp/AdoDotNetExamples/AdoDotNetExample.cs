@@ -79,6 +79,7 @@ namespace THDotNetPractice.ConsoleApp.AdoDotNetExamples
                 Console.WriteLine("BlogContent " + dr["BlogContent"]);
             }
         }
+
         public void Create(string title, string author, string content)
         {
             Console.WriteLine("Create");
