@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOCUMENT", "DOCUMENT", "{99
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THDotNetPractice.DapperCRUDExample", "THDotNetPractice.DapperCRUDExample\THDotNetPractice.DapperCRUDExample.csproj", "{AEA63D1E-DEAE-451B-AFCF-665B931A17BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THDotNetPractice.ConsoleApp", "THDotNetPractice.ConsoleApp\THDotNetPractice.ConsoleApp.csproj", "{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THDotNetPractice.ConsoleApp", "THDotNetPractice.ConsoleApp\THDotNetPractice.ConsoleApp.csproj", "{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THDotNetPractice.WebApi", "THDotNetPractice.WebApi\THDotNetPractice.WebApi.csproj", "{AB6535A9-DF5C-42E7-9E00-927A1EEEFE5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A5E36F8-044F-4675-BAB6-DA8B3A2C236B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6535A9-DF5C-42E7-9E00-927A1EEEFE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6535A9-DF5C-42E7-9E00-927A1EEEFE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6535A9-DF5C-42E7-9E00-927A1EEEFE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6535A9-DF5C-42E7-9E00-927A1EEEFE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
