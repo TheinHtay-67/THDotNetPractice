@@ -2,6 +2,7 @@
 using THDotNetPractice.ConsoleApp.AdoDotNetExamples;
 using THDotNetPractice.ConsoleApp.DapperExamples;
 using THDotNetPractice.ConsoleApp.EFCoreExamples;
+using THDotNetPractice.ConsoleApp.HttpClientExamples;
 
 //AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 ////adoDotNetExample.Read();
@@ -17,12 +18,17 @@ using THDotNetPractice.ConsoleApp.EFCoreExamples;
 ////dapperExample.Update(5, "Test Title 3", "Test Author 3", "Test Content 3");
 //dapperExample.Delete(5);
 
-EFCoreExample eFCoreExample = new EFCoreExample();
-//eFCoreExample.Read();
-//eFCoreExample.Edit(1);
-//eFCoreExample.Create("Test Title 4", "Test Author 4", "Test Content 4");
-//eFCoreExample.Update(7, "Test Title 3", "Test Author 3", "Test Content 3");
-eFCoreExample.Delete(6);
+//EFCoreExample eFCoreExample = new EFCoreExample();
+////eFCoreExample.Read();
+////eFCoreExample.Edit(1);
+////eFCoreExample.Create("Test Title 4", "Test Author 4", "Test Content 4");
+////eFCoreExample.Update(7, "Test Title 3", "Test Author 3", "Test Content 3");
+//eFCoreExample.Delete(6);
 
+Console.WriteLine("Waiting for api...");
+Console.ReadKey();
+
+HttpClientExample httpClientExample = new HttpClientExample();
+await httpClientExample.Run();
 
 Console.ReadKey();
