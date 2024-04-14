@@ -8,7 +8,9 @@
 
   ### [x]Call api from console application from WebApi and Jsonplaceholder
   ##### Using HttpClient & Newtonsoft.Json
+  ###### [x] Call CRUD api from console app by using HttpClient
 
+  https://jsonplaceholder.typicode.com/
 
 # ASP.net core WebApi Project
 	

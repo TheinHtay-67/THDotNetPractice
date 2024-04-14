@@ -28,7 +28,10 @@ using THDotNetPractice.ConsoleApp.HttpClientExamples;
 Console.WriteLine("Waiting for api...");
 Console.ReadKey();
 
-HttpClientExample httpClientExample = new HttpClientExample();
-await httpClientExample.Run();
+//HttpClientExample2 httpClientExample = new HttpClientExample2();
+//await httpClientExample.Run();
+
+HttpClientExample httpClient = new HttpClientExample();
+await httpClient.Run();
 
 Console.ReadKey();
