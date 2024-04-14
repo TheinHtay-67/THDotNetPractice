@@ -22,6 +22,18 @@ namespace THDotNetPractice.WebApi.Controllers
             return Ok(lst);
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetBlog(int id)
+        {
+            BlogModel? item = _db.Blogs.FirstOrDefault(item => item.BlogId == id);
+            if (item is null)
+            {
+                Console.WriteLine("No data found.");
+                return NotFound();
+            }
+            return Ok(item);
+        }
+
         [HttpPost]
         public IActionResult CreateBlog(BlogModel blog)
         {
