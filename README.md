@@ -14,7 +14,9 @@
 
 # ASP.net core WebApi Project
 	
-	
+# ASP.net core BridWebApi Project
+ ##### Call another api from BridWebApi project
+		https://burma-project-ideas.vercel.app/
 
 # Testing SignalR
 https://learn.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-8.0&tabs=visual-studio

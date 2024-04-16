@@ -1,0 +1,6 @@
+@THDotNetPractice.BirdWebApi_HostAddress = http://localhost:5294
+
+GET {{THDotNetPractice.BirdWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
