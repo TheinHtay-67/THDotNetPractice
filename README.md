@@ -10,6 +10,10 @@
   ##### Using HttpClient & Newtonsoft.Json
   ###### [x] Call CRUD api from console app by using HttpClient
 
+  ### [x]Call api from console application from WebApi by Using RestSharp(RestClient)
+  ##### Using RestClient & Newtonsoft.Json
+  ###### [x] Call CRUD api from console app by using RestClient
+
   https://jsonplaceholder.typicode.com/
 
 # ASP.net core WebApi Project

@@ -3,6 +3,7 @@ using THDotNetPractice.ConsoleApp.AdoDotNetExamples;
 using THDotNetPractice.ConsoleApp.DapperExamples;
 using THDotNetPractice.ConsoleApp.EFCoreExamples;
 using THDotNetPractice.ConsoleApp.HttpClientExamples;
+using THDotNetPractice.ConsoleApp.RestClientExamples;
 
 //AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 ////adoDotNetExample.Read();
@@ -31,7 +32,10 @@ Console.ReadKey();
 //HttpClientExample2 httpClientExample = new HttpClientExample2();
 //await httpClientExample.Run();
 
-HttpClientExample httpClient = new HttpClientExample();
-await httpClient.Run();
+//HttpClientExample httpClient = new HttpClientExample();
+//await httpClient.Run();
+
+RestClientExample restClientExample = new RestClientExample();
+await restClientExample.Run();
 
 Console.ReadKey();
